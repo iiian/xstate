@@ -1,6 +1,6 @@
 {
   "name": "@xstate/react",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "XState tools for React",
   "keywords": [
     "state",
@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "react": "^16.8.0",
-    "xstate": "^4.7.0"
+    "xstate": "^4.7.5"
   },
   "devDependencies": {
     "@testing-library/react": "^8.0.9",

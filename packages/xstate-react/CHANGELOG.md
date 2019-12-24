@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.0
+
+### Major Changes
+
+- f96a517: Drop `immediate` option from the `useMachine` hook. It wasn't safe for async React. If you need to send events to your created machine before it has a chance to start in React's commit phase for your component then you have to implement queuing of events appropriate for your use case.
+
+### Patch Changes
+
+- Updated dependencies [6b3d767]
+  - xstate@4.7.5
+
 All notable changes to this project will be documented in this file.
 
 ## [0.8.1]
